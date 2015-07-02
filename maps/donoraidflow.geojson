@@ -1,0 +1,725 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 134.755,-24.776109 ]
+    },
+    "properties": {
+    "Country":"Australia",
+    "2009":2767.63,
+    "2010":3826.08,
+    "2011":4983.41,
+    "2012":5402.72,
+    "2013":4845.5,
+    "Sum":21825.34
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.199959,47.200034 ]
+    },
+    "properties": {
+    "Country":"Austria",
+    "2009":1141.75,
+    "2010":1208.4,
+    "2011":1111.35,
+    "2012":1105.8,
+    "2013":1171.49,
+    "Sum":5738.79
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.66696,50.640735 ]
+    },
+    "properties": {
+    "Country":"Belgium",
+    "2009":2609.6,
+    "2010":3003.9,
+    "2011":2807.4,
+    "2012":2314.93,
+    "2013":2299.58,
+    "Sum":13035.41
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -107.991707,61.066692 ]
+    },
+    "properties": {
+    "Country":"Canada",
+    "2009":4000.11,
+    "2010":5214.11,
+    "2011":5458.52,
+    "2012":5649.47,
+    "2013":4947.24,
+    "Sum":25269.45
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 15.474954,49.8167 ]
+    },
+    "properties": {
+    "Country":"Czech Republic",
+    "2009":214.7,
+    "2010":227.56,
+    "2011":250.42,
+    "2012":219.62,
+    "2013":210.88,
+    "Sum":1123.18
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.333328,55.670249 ]
+    },
+    "properties": {
+    "Country":"Denmark",
+    "2009":2809.88,
+    "2010":2870.99,
+    "2011":2931.1,
+    "2012":2692.59,
+    "2013":2927.46,
+    "Sum":14232.02
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 25.920916,63.246778 ]
+    },
+    "properties": {
+    "Country":"Finland",
+    "2009":1290.25,
+    "2010":1332.98,
+    "2011":1406.04,
+    "2012":1319.71,
+    "2013":1435.36,
+    "Sum":6784.34
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.888334,46.603354 ]
+    },
+    "properties": {
+    "Country":"France",
+    "2009":12601.59,
+    "2010":12915.12,
+    "2011":12997.23,
+    "2012":12028.27,
+    "2013":11338.67,
+    "Sum":61880.88
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 10.423447,51.08342 ]
+    },
+    "properties": {
+    "Country":"Germany",
+    "2009":12079.3,
+    "2010":12079.3,
+    "2011":14092.89,
+    "2012":12939.49,
+    "2013":14228.26,
+    "Sum":65419.24
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 21.999957,39.000041 ]
+    },
+    "properties": {
+    "Country":"Greece",
+    "2009":607.27,
+    "2010":507.72,
+    "2011":424.77,
+    "2012":327.39,
+    "2013":239.07,
+    "Sum":2106.22
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -18.105901,64.984182 ]
+    },
+    "properties": {
+    "Country":"Iceland",
+    "2009":34.42,
+    "2010":28.75,
+    "2011":25.58,
+    "2012":26.13,
+    "2013":34.91,
+    "Sum":149.79
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.97946,52.865196 ]
+    },
+    "properties": {
+    "Country":"Ireland",
+    "2009":1005.87,
+    "2010":895.18,
+    "2011":913.52,
+    "2012":808.36,
+    "2013":845.87,
+    "Sum":4468.8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.674297,42.638426 ]
+    },
+    "properties": {
+    "Country":"Italy",
+    "2009":3297.51,
+    "2010":2996.4,
+    "2011":4325.65,
+    "2012":2737.12,
+    "2013":3430.08,
+    "Sum":16786.76
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 139.239418,36.574844 ]
+    },
+    "properties": {
+    "Country":"Japan",
+    "2009":9466.57,
+    "2010":11057.77,
+    "2011":10831.42,
+    "2012":10604.5,
+    "2013":11581.64,
+    "Sum":53541.9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 127.937111,35.398501 ]
+    },
+    "properties": {
+    "Country":"Korea",
+    "2009":816.04,
+    "2010":1173.75,
+    "2011":1324.53,
+    "2012":1597.46,
+    "2013":1755.38,
+    "Sum":6667.16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 6.129675,49.815868 ]
+    },
+    "properties": {
+    "Country":"Luxembourg",
+    "2009":414.74,
+    "2010":402.7,
+    "2011":409.2,
+    "2012":399.03,
+    "2013":429.32,
+    "Sum":2054.99
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.534607,52.237989 ]
+    },
+    "properties": {
+    "Country":"Netherlands",
+    "2009":6426.11,
+    "2010":6357.34,
+    "2011":6343.94,
+    "2012":5522.85,
+    "2013":5435.45,
+    "Sum":30085.69
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 172.834408,-41.500083 ]
+    },
+    "properties": {
+    "Country":"New Zealand",
+    "2009":309.25,
+    "2010":342.19,
+    "2011":424.12,
+    "2012":449.14,
+    "2013":457.34,
+    "Sum":1982.04
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.099972,60.500021 ]
+    },
+    "properties": {
+    "Country":"Norway",
+    "2009":4081.24,
+    "2010":4371.58,
+    "2011":4755.61,
+    "2012":4752.99,
+    "2013":5581.36,
+    "Sum":23542.78
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.025816,52.097718 ]
+    },
+    "properties": {
+    "Country":"Poland",
+    "2009":374.89,
+    "2010":378.54,
+    "2011":417.47,
+    "2012":421.06,
+    "2013":472.31,
+    "Sum":2064.27
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7.889626,40.033265 ]
+    },
+    "properties": {
+    "Country":"Portugal",
+    "2009":512.69,
+    "2010":648.94,
+    "2011":707.79,
+    "2012":580.77,
+    "2013":488.32,
+    "Sum":2938.51
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.452865,48.741152 ]
+    },
+    "properties": {
+    "Country":"Slovak Republic",
+    "2009":75.4,
+    "2010":73.71,
+    "2011":86.02,
+    "2012":79.68,
+    "2013":86.04,
+    "Sum":400.85
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.480837,45.813311 ]
+    },
+    "properties": {
+    "Country":"Slovenia",
+    "2009":71.24,
+    "2010":58.6,
+    "2011":62.77,
+    "2012":58.44,
+    "2013":61.6,
+    "Sum":312.65
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -4.003104,40.002803 ]
+    },
+    "properties": {
+    "Country":"Spain",
+    "2009":6584.15,
+    "2010":5949.49,
+    "2011":4173.14,
+    "2012":2037.37,
+    "2013":2374.6,
+    "Sum":21118.75
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.520858,59.674971 ]
+    },
+    "properties": {
+    "Country":"Sweden",
+    "2009":4548.28,
+    "2010":4533.5,
+    "2011":5603.13,
+    "2012":5239.8,
+    "2013":5827.29,
+    "Sum":25752
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.231974,46.798562 ]
+    },
+    "properties": {
+    "Country":"Switzerland",
+    "2009":2310.07,
+    "2010":2299.95,
+    "2011":3050.92,
+    "2012":3052.16,
+    "2013":3200.1,
+    "Sum":13913.2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.276575,54.702355 ]
+    },
+    "properties": {
+    "Country":"United Kingdom",
+    "2009":11282.69,
+    "2010":13053.02,
+    "2011":13832.36,
+    "2012":13891.49,
+    "2013":17871.35,
+    "Sum":69930.91
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.445882,39.78373 ]
+    },
+    "properties": {
+    "Country":"USA",
+    "2009":28831.35,
+    "2010":30352.67,
+    "2011":30919.77,
+    "2012":30686.96,
+    "2013":30879.23,
+    "Sum":151669.98
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 25.485662,42.607398 ]
+    },
+    "properties": {
+    "Country":"Bulgaria",
+    "2009":0,
+    "2010":40.49,
+    "2011":48.38,
+    "2012":39.95,
+    "2013":49.65,
+    "Sum":178.47
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 17.011895,45.564344 ]
+    },
+    "properties": {
+    "Country":"Croatia",
+    "2009":0,
+    "2010":0,
+    "2011":0,
+    "2012":21.36,
+    "2013":45.08,
+    "Sum":66.44
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 33.13964,35.169563 ]
+    },
+    "properties": {
+    "Country":"Cyprus",
+    "2009":45.5,
+    "2010":51.17,
+    "2011":37.6,
+    "2012":25.08,
+    "2013":20.39,
+    "Sum":179.74
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 25.331908,58.752378 ]
+    },
+    "properties": {
+    "Country":"Estonia",
+    "2009":18.44,
+    "2010":18.76,
+    "2011":24.21,
+    "2012":23.24,
+    "2013":30.67,
+    "Sum":115.32
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.506094,47.181759 ]
+    },
+    "properties": {
+    "Country":"Hungary",
+    "2009":116.92,
+    "2010":114.34,
+    "2011":139.73,
+    "2012":118.38,
+    "2013":128.18,
+    "Sum":617.55
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 35.00152,30.876027 ]
+    },
+    "properties": {
+    "Country":"Israel",
+    "2009":123.9,
+    "2010":144.82,
+    "2011":206.19,
+    "2012":181.19,
+    "2013":201.87,
+    "Sum":857.97
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 47.497948,29.273396 ]
+    },
+    "properties": {
+    "Country":"Kuwait",
+    "2009":221.12,
+    "2010":210.56,
+    "2011":144.49,
+    "2012":149.16,
+    "2013":185.56,
+    "Sum":910.89
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 24.599972,56.86669 ]
+    },
+    "properties": {
+    "Country":"Latvia",
+    "2009":20.98,
+    "2010":15.64,
+    "2011":19.13,
+    "2012":21.11,
+    "2013":23.72,
+    "Sum":100.58
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.546939,47.159341 ]
+    },
+    "properties": {
+    "Country":"Liechtenstein",
+    "2009":26.24,
+    "2010":26.63,
+    "2011":31.46,
+    "2012":28.6,
+    "2013":28.26,
+    "Sum":141.19
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 23.75,55.35 ]
+    },
+    "properties": {
+    "Country":"Lithuania",
+    "2009":36.21,
+    "2010":36.74,
+    "2011":51.66,
+    "2012":51.91,
+    "2013":50.41,
+    "Sum":226.93
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 85.245167,27.501572 ]
+    },
+    "properties": {
+    "Country":"Malta",
+    "2009":13.69,
+    "2010":13.8,
+    "2011":19.96,
+    "2012":18.32,
+    "2013":18.26,
+    "Sum":84.03
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 24.685923,45.985213 ]
+    },
+    "properties": {
+    "Country":"Romania",
+    "2009":152.54,
+    "2010":114.26,
+    "2011":163.81,
+    "2012":142.41,
+    "2013":133.9,
+    "Sum":706.92
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 97.745306,64.686314 ]
+    },
+    "properties": {
+    "Country":"Russia",
+    "2009":0,
+    "2010":472.39,
+    "2011":478.99,
+    "2012":465.01,
+    "2013":713.66,
+    "Sum":2130.05
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 42.352833,25.624262 ]
+    },
+    "properties": {
+    "Country":"Saudi Arabia",
+    "2009":3133.74,
+    "2010":3479.64,
+    "2011":5094.9,
+    "2012":1298.87,
+    "2013":5683.27,
+    "Sum":18690.42
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.924965,38.959759 ]
+    },
+    "properties": {
+    "Country":"Turkey",
+    "2009":707.17,
+    "2010":967.42,
+    "2011":1273.01,
+    "2012":2533.3,
+    "2013":3307.67,
+    "Sum":8788.57
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 100.83273,14.897192 ]
+    },
+    "properties": {
+    "Country":"Thailand",
+    "2009":40.21,
+    "2010":9.62,
+    "2011":31.49,
+    "2012":16.9,
+    "2013":46.3,
+    "Sum":144.52
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 53.999483,24.000249 ]
+    },
+    "properties": {
+    "Country":"United Arab Emirates",
+    "2009":946.63,
+    "2010":413.82,
+    "2011":712.8,
+    "2012":759.15,
+    "2013":5401.9,
+    "Sum":8234.3
+    }
+  }
+]
+}
