@@ -1,3 +1,4 @@
+
 // See post: http://asmaloney.com/2014/01/code/creating-an-interactive-map-with-leaflet-and-openstreetmap/
 
 //create the map object
@@ -32,29 +33,49 @@ L.tileLayer('http://api.tiles.mapbox.com/v4/mapbox.light/{z}/{x}/{y}.png?access_
   // method that we will use to update the control based on feature properties passed
   info.update = function (props) {
     var grades = [0, 10000, 20000];
-    this._div.innerHTML =  '<h4>Official Development </br> Assistance</h4>' + (props ?
-      '<b>' + markers.name + '</b><br />' + markers.oda + ' people / mi<sup>2</sup>'
-      : 'Hover over a country<br /><br />');
+    this._div.innerHTML =  '<h4>Official Development </br> Assistance (ODA)<br/></h4>' + '<i>(in millions of USD, </br>between 2009 and 2013)<br/><br/></i>' + (props ?
+      '<b>' + props.name + '</b><br />' + props.oda
+      : 'Hover over a donor country <br/>(indicated by green color)<br /><br />');
     // if (!props) {
     //   for (var i = 0; i < grades.length; i++) {
     //     this._div.innerHTML +=
-    //       '<i class="legend-i" style="background:'  getColor(grades[i] + 1) + '"></i>"<span class="legend-label">' +
+    //       '<i class="legend-i" style="background:'+ getColor(grades[i] + 1) + '"></i>"<span class="legend-label">' +
     //       grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '</span><br>' : '+'
     //         );
     //   }
     // }
   };
 
-   info.addTo(map);
+  info.addTo(map);
 
-   // var infoStyle = document.createElement('style');
-   //  infoStyle.innerHTML = 'padding: 6px 8px;
-   //  font: 14px/16px Arial, Helvetica, sans-serif;
-   //  background: white;
-   //  background: rgba(255,255,255,0.8);
-   //  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-   //  border-radius: 5px;';
-   //  document.head.appendChild(infoStyle);
+  //info.style.padding: "6px 8px";
+  //info.style.font: "14px/16px Arial, Helvetica, sans-serif";
+  //$(info).css('backgroundColor', 'white');
+  //info.style.background: 'white';
+  //info.style.backgroundColor: 'white';
+  //info.style.box-shadow: '0 0 15px rgba(0,0,0,0.2)';
+  //info.style.border-radius: '5px';});
+
+
+// var legend = L.control({position: 'bottomright'});
+
+// legend.onAdd = function (map) {
+
+//     var div = L.DomUtil.create('div', 'info legend'),
+//         grades = [0, 10000, 20000],
+//         labels = [];
+
+//     // loop through our density intervals and generate a label with a colored square for each interval
+//     for (var i = 0; i < grades.length; i++) {
+//         div.innerHTML +=
+//             '<i style="background:' + '#000' + '"></i> ' +
+//             grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+//     }
+
+//     return div;
+// };
+
+// legend.addTo(map);
 
 
 //adding the geojson country outlines
@@ -70,7 +91,7 @@ geojson = L.geoJson(countries, {
 //            d > 1000  ? '#A1D99B' :
 //            d = 0  ? '#E5F5E0' :
 //            //d = "China" ? '#E5F5E0';
-// }
+//  }
 
 // function getColor(d) {
 //     return d > 1000 ? '#800026' :
@@ -86,7 +107,7 @@ geojson = L.geoJson(countries, {
 //modify the color of the borders, and the fill
 function coloring(feature) {
     return {
-        fillColor:'#000', //getColor(feature.properties.name), // 
+        fillColor: ((feature.properties.oda == "N/A")? '#000' : '#327D14'),//getColor(feature.properties.oda), //  //
         weight: 1,
         opacity: 1,
         color: 'white',
@@ -101,7 +122,7 @@ function highlightFeature(e) {
 
     layer.setStyle({
         weight: 1,
-        color: '#ffff00',
+        color: '#265E0F',
         dashArray: '',
         fillOpacity: 0.7
     });
@@ -109,13 +130,13 @@ function highlightFeature(e) {
     if (!L.Browser.ie && !L.Browser.opera) {
         layer.bringToFront();
     }
-    //info.update(layer.feature.properties);
+    info.update(layer.feature.properties);
 }
 
 //remove the highlight after the mouse exits
 function resetHighlight(e) {
     geojson.resetStyle(e.target);
-    //info.update();
+    info.update();
 }
 
 //zoom in on a country when you click on it
@@ -157,3 +178,5 @@ for ( var i=0; i < donordata.length; ++i )
       .bindPopup('<b>' + "Country: " + '</b>' + donordata[i].Country + '</br>' + '<b>' + "Total aid flow 2009-2013 </br> (In millions of USD): " + '</b>' + donoraidflow[i].Sum + '</b>' )
       .addTo( map );
 }
+
+
